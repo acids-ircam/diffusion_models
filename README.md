@@ -2,7 +2,9 @@
 
 These tutorials explores the new class of generative models based on _diffusion probabilistic models_ [ [ 1 ] ](#ref1). This class of models is inspired by considerations from thermodynamics [ [ 2 ] ](#ref2), but also bears strong ressemblence to _denoising score matching_ [ [ 3 ] ](#ref3), _Langevin dynamics_ and _autoregressive decoding_. We will also discuss the more recent development of _denoising diffusion implicit models_ [ [ 4 ] ](#ref4), which bypass the need for a Markov chain to accelerate the sampling. Stemming from this work, we will also discuss the _wavegrad_ model [ [ 5 ] ](#ref5), which is based on the same core principles but applies this class of models for audio data. 
 
-In order to fully understand the inner workings of diffusion model, we will review all of the correlated topics. Therefore, we split the explanation between four detailed notebooks.
+In order to fully understand the inner workings of diffusion model, we will review all of the correlated topics through tutorial notebooks. These notebooks are available in `Pytorch` or in `JAX` (in the [`jax_tutorials/`](https://github.com/acids-ircam/diffusion_models/tree/main/jax_tutorials) folder), thanks to the great contribution of [Cristian Garcia](https://github.com/cgarciae).
+
+We split the explanation between four detailed notebooks.
 1. Score matching and Langevin dynamics.
 2. Diffusion probabilistic models and denoising
 3. Applications to waveforms with WaveGrad
